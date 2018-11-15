@@ -1,11 +1,4 @@
-// function onClickHandler(event) {
-//  var Calculate = document.getElementById("")
-//  document.getElementById("click-me").addEventListener('click',onClickHandler)
-
-// }
-
-// document.getElementById("click-me").addEventListener('click',onClickHandler)
-
+function myFunction() {
 var x = prompt("Введите х", 'x=');
 var n = prompt("Введите n", 'n=');
 function pow(x, n) {
@@ -13,4 +6,6 @@ function pow(x, n) {
    
 }
 alert(pow(x,n));
+   
+}
 
